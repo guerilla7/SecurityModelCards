@@ -1,8 +1,9 @@
 # 🪪 SecurityModelCards
 “Security Model Cards” for Reporting the Security Posture of Internally Developed Machine Learning Models or Systems
 
-👨🏻‍💻 Author: Ron F. Del Rosario | E-mail: ronsurf23@gmail.com, 
-📧 LinkedIn: www.linkedin.com/in/ronaldfloresdelrosario
+👨🏻‍💻 Author: Ron F. Del Rosario
+📧 E-mail: ronsurf23@gmail.com, 
+🛜 LinkedIn: www.linkedin.com/in/ronaldfloresdelrosario
 
 🚀 This concept was initially published as public comment via Request for Information (RFI) Related to NIST’s Assignments Under
 Sections 4.1, 4.5, and 11 of the Executive Order Concerning Artificial Intelligence (Sections 4.1, 4.5, and 11):
