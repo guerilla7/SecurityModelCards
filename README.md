@@ -13,6 +13,8 @@ https://www.regulations.gov/comment/NIST-2023-0009-0105
 
 > [!NOTE]
 > I am currently using a customized and more advanced version of this Security Model Cards concept at my current work where I serve as the Chief Security Architect, focusing on AI/ML Systems.
-> The use of Security Model Cards in large organizations helps promote visibility, transparency, and understanding of ML Models and AI Systems in general within product security organizations.  
+> The use of Security Model Cards in large organizations helps promote visibility, transparency, and understanding of ML Models and AI Systems in general within product security organizations.    
+
+> [!TIP]
 > Product security teams often struggle when it comes to conducting security reviews and threat modeling of ML Models or AI Systems due to a lack of foundational knowledge about the system that
 > they need to review.  This is where Model Cards shine, and can easily be repurposed to include a security considerations section that will benefit both AI/ML developers and security teams.
