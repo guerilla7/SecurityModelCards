@@ -1,0 +1,43 @@
+{
+    "model_details": {
+        "developer": "test",
+        "date": "test",
+        "version": "test",
+        "type": "test",
+        "information": "test",
+        "resource": "test",
+        "citation": "test",
+        "license": "test",
+        "contact": "test"
+    },
+    "intended_use": {
+        "primary_uses": "test",
+        "primary_users": "test",
+        "out_of_scope_uses": "test"
+    },
+    "factors": {
+        "relevant_factors": "test",
+        "evaluation_factors": "test"
+    },
+    "metrics": {
+        "performance_measures": "test",
+        "decision_thresholds": "test",
+        "variation_approaches": "test"
+    },
+    "evaluation_data": {
+        "datasets": "test",
+        "motivation": "test",
+        "preprocessing": "test"
+    },
+    "training_data": "test",
+    "quantitative_analyses": {
+        "unitary_results": "test",
+        "intersectional_results": "test"
+    },
+    "ethical_considerations": "test",
+    "caveats_and_recommendations": "test",
+    "security_considerations": {
+        "threat_modeling": "test",
+        "security_testing": "test"
+    }
+}
