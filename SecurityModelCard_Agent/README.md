@@ -55,5 +55,3 @@ The script will prompt you to enter the path to your PDF file. After you provide
 *   **Crew AI Errors:** If you encounter errors related to Crew AI, consult the Crew AI documentation for troubleshooting tips.
 *   **JSON Parsing Errors:** If you see errors about JSON parsing, examine the output from the Crew AI agent.  It might give you clues about why the JSON is invalid.  The `logging.error(f"Agent Output: {result}")` line is there to help with this.
 *   **Prompt Engineering:** If the extracted information is inaccurate or incomplete, the most likely culprit is the prompt you're giving to the Crew AI agent.  Experiment with different prompts to see what works best.  Clarity and specificity in your prompt are essential.
-
-By following these steps, you should be able to get the code running and start generating Security Model Cards.  Let me know if you run into any specific issues, and we can troubleshoot them together.
