@@ -3,7 +3,7 @@
 https://aiagentindex.mit.edu/
 
 This Flask application displays data from a CSV file, with dynamic header detection, and allows users to search the data.
-
+![Screenshot 2025-03-16 at 9 31 37 PM](https://github.com/user-attachments/assets/62d38b13-615e-4578-8723-dafefd6d8145)
 ## Prerequisites
 
 * Python 3.6 or higher
