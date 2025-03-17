@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Agent Index</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>MIT AI Agent Index</h1>
+    <h2><a href="https://aiagentindex.mit.edu/">https://aiagentindex.mit.edu/</a></h2>
+
+    <form method="GET">
+        <input type="text" id="search" name="search" placeholder="Enter search term">
+        <button type="submit">Search</button>
+    </form>
+
+    {% if results %}
+        <h2>Search Results</h2>
+        <table>
+            <thead>
+                <tr>
+                    {% for key in results[0].keys() %}
+                        <th>{{ key }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in results %}
+                    <tr>
+                        {% for key, value in item.items() %}
+                            <td>{{ value }}</td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% elif search %}
+        <p>No results found for "{{ search }}".</p>
+    {% else %}
+        <p>Enter a search term to find AI Agents.</p>
+    {% endif %}
+</body>
+</html>
